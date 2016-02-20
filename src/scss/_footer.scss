@@ -1,0 +1,16 @@
+$footer-bg: #dfdfdf;
+$footer-top-bg: #0078c1;
+$footer-color: #4e4e4e;
+$footer-fontsize: 13px;
+
+.footer {
+	background-color: $footer-bg;
+	color: $footer-color;
+	font-size: $footer-fontsize;
+	text-align: center;
+	.footer-top {
+		background-color: $footer-top-bg;
+		height: 5px;
+
+	}
+}

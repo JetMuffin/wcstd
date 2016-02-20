@@ -1,0 +1,150 @@
+body {
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5 {
+	padding: 0;
+	margin: 0;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+	&:hover {
+		color: #1e7acd;
+	}
+}
+
+.container {
+	width: 920px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.btn {
+    width: 122px;
+    height: 38px;
+    font-size: 14px;
+    text-align: center;
+    border: none;
+    cursor: pointer;	
+    font-family: "Microsoft Yahei";
+    font-size: 15px;	
+}
+
+.btn-blue {
+    color: #FFFFFF;	
+    background-color: #4d8bd7;
+    border: 1px solid #4b65bb; 
+    &:hover {
+    	background-color: #2c71c5;
+    }   
+}
+
+.btn-default {
+    border: 1px solid #cccccc;
+    color: #666666;
+    background-color: #fff;
+    &:hover {
+    	background-color: #f2f2f2;
+    }
+}
+
+.btn-group .btn {
+	float: left;
+	width: auto;
+}
+.form-item {
+	 margin-bottom: 15px;
+	.form-control {
+	    height: 32px;
+	    line-height: 32px;
+	    font-size: 14px;
+	    padding: 0 10px;
+	    margin-left: -10px;
+	    border: 1px solid #aaa;
+	    width: 100%;		
+	}
+}
+
+.block{
+  	.block-title{
+    	font-family: "Microsoft Yahei";
+    	border-bottom: 2px solid #ddd;
+    	padding-right: 5px;
+    	display: block;
+  	}
+  	.block-title-inner{
+    	padding: 5px 12px 5px;
+    	float: left;
+    	border-bottom: 2px solid #1e7acd;
+    	margin-bottom: -2px;
+  	}
+  	.block-content{
+    	padding: 10px;
+  	}
+  	.more{
+    	margin-top: 10px;
+    	float: right;
+    	font-size: 12px;
+    	a{
+      		font-weight: bold;
+    	}
+  	}
+}
+
+.fl {
+  float: left;
+}
+.mt-5 {
+	margin-top: 5px;
+}
+
+.mt-10 {
+	margin-top: 10px;
+}
+
+.mt-20 {
+	margin-top: 20px;
+}
+
+.ml-30 {
+  margin-left: 30px;
+}
+
+.p-5 {
+  padding: 5px;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.p-20 {
+  padding: 20px;
+}
+
+.pb-30 {
+  padding-bottom: 30px;
+}
+
+.pb-50 {
+  padding-bottom: 50px;
+}

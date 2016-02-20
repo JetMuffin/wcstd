@@ -1,0 +1,70 @@
+$carousel-height: 160px;
+$image-height: 125px;
+$image-width: 190px;
+.box { 
+	width:860px; 
+	position:relative; 
+	overflow:hidden; 
+	_height:100%;
+}
+
+.picbox { 
+	width:860px; 
+	height:$carousel-height; 
+	overflow:hidden; 
+	position:relative;
+}
+
+.piclist { 
+	height:$carousel-height;
+	position:absolute; 
+	left:0px; 
+	top:0px;
+	li { 
+		background:#eee; 
+		margin-right:20px; 
+		height: $carousel-height;
+		padding:5px; 
+		float:left;
+		a {
+			display: inline-block;
+			width: $image-width;
+			height: $image-height;
+			overflow: hidden;
+		}
+		p {
+			font-size: 14px;
+			padding: 5px;
+			text-align: center;
+		}
+	}
+}
+
+.swaplist{ 
+	position:absolute; 
+	left:-3000px; 
+	top:0px;
+}
+
+.og_prev,.og_next{ 
+	width: 30px; 
+	height: 50px; 
+	background:url(../images/icon.png) no-repeat; 
+	background:url(../images/icon_ie6.png) no-repeat; 
+	position:absolute; 
+	top: 50px; 
+	z-index: 99; 
+	cursor: pointer;
+	filter: alpha(opacity=70); 
+	opacity: 0.7;
+}
+
+.og_prev{ 
+	background-position:0 -60px; 
+	left:4px;
+}
+
+.og_next{ 
+	background-position:0 0; 
+	right:4px;
+}

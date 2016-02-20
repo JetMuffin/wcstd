@@ -1,0 +1,27 @@
+.banner{
+	width: 100%;
+	overflow: hidden;
+}
+
+.nav {
+	height: 38px;
+	line-height: 38px;
+	background: url('../images/navbg.png') repeat-x;
+	.navbar{
+		li{
+			float: left;
+			margin-left: 30px;
+			a {
+				display: inline-block;
+				padding: 0 10px;
+				color: #000;
+				font-size: 14px;
+				font-weight: bold;
+			}
+		}
+		&:after {
+			clear: both;
+		}
+	}
+}
+
