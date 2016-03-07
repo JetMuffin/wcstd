@@ -1,0 +1,75 @@
+.main-right {
+    padding: 10px 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #f5f5f5;    
+    min-height: 300px;
+    position: relative;
+	.main-header{
+		.breadcrumb{
+			margin-bottom: -7px;
+			ul{
+				li{
+					float: left;
+					a{
+						color: #094359;
+						font-size: 14px;
+						font-weight: bold;
+						font-family: "Adobe Heiti Std";
+						&:hover{
+							color: #094359;
+						}
+					}
+				}
+			}
+		}	
+	}	
+	.article{
+		.article-title{
+			text-align: center;
+			h2{
+				padding: 0.4em 0 0.6em 0;
+			}
+			border-bottom: 1px solid #ddd;
+		}
+		.addon{
+			font-size: 12px;
+			text-align: center;
+			color: #999;
+			padding: 10px 0;
+		}
+		.article-list{
+			border-top: 1px solid #ddd;
+			margin-top: 10px;
+			padding-top: 10px;
+			li{
+				line-height: 30px;
+				height: 30px;
+				font-size: 13px;
+				border-bottom: dashed 1px #CCCCCC;
+				a{
+					margin-left: 20px;
+				}
+			}
+			.article-time{
+				float: right;
+				margin-right: 10px;
+			}
+		}
+	}	
+	.list-tag{
+		display: inline-block;
+		height: 10px;
+		width: 10px;
+		background-image: url(../images/news_tip.jpg);
+		background-repeat: no-repeat;
+	}	
+	.page {
+		position: absolute;
+		bottom: 0;
+		font-size: 13px;
+		display: block;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+}
