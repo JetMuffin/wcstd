@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   margin: 0; }
 
@@ -114,6 +115,9 @@ a {
 .p-20 {
   padding: 20px; }
 
+.pt-20 {
+  padding-top: 20px; }
+
 .pb-30 {
   padding-bottom: 30px; }
 
@@ -126,13 +130,13 @@ a {
 
 .nav {
   height: 38px;
-  line-height: 38px;
+  line-height: 36px;
   background: url("../images/navbg.png") repeat-x; }
   .nav .navbar li {
     float: left;
     margin-left: 30px; }
     .nav .navbar li a {
-      display: inline-block;
+      display: i8line-block;
       padding: 0 10px;
       color: #000;
       font-size: 14px;
@@ -207,20 +211,20 @@ a {
   _height: 100%; }
 
 .picbox {
-  width: 860px;
-  height: 160px;
+  width: 861px;
+  height: 170px;
   overflow: hidden;
   position: relative; }
 
 .piclist {
-  height: 160px;
+  height: 170px;
   position: absolute;
   left: 0px;
   top: 0px; }
   .piclist li {
     background: #eee;
     margin-right: 20px;
-    height: 160px;
+    height: 170px;
     padding: 5px;
     float: left; }
     .piclist li a {
@@ -230,7 +234,8 @@ a {
       overflow: hidden; }
     .piclist li p {
       font-size: 14px;
-      padding: 5px;
+      padding: 7px;
+      font-family: "Microsoft Yahei";
       text-align: center; }
 
 .swaplist {
@@ -289,7 +294,8 @@ a {
   .login-box .login-title {
     font-weight: normal;
     text-align: center;
-    padding: 20px 0; }
+    padding: 20px 0;
+    font-family: "Microsoft Yahei"; }
   .login-box .login-input {
     padding: 0 0 0 30px;
     width: 200px;
@@ -369,3 +375,190 @@ a {
   width: 730px;
   background-image: url("../images/wave2.png");
   height: 50px; }
+
+.content-body {
+  min-height: 400px; }
+  .content-body .body-top {
+    padding: 15px 10px 10px 10px;
+    border-bottom: 3px solid #D9D9D9;
+    text-align: right; }
+  .content-body .breadcrumb {
+    color: #777;
+    font-size: 12px;
+    float: left;
+    line-height: 20px; }
+    .content-body .breadcrumb a {
+      font-size: 12px;
+      color: #777; }
+  .content-body .more {
+    color: #000;
+    font-size: 13px; }
+  .content-body .body-inner .title {
+    margin: 0 auto;
+    line-height: 40px;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    text-align: center; }
+  .content-body .body-inner .postmeta {
+    font-size: 13px;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 5px;
+    text-align: center; }
+    .content-body .body-inner .postmeta span {
+      display: inline-block;
+      margin: 0 10px;
+      font-size: 13px;
+      color: #333; }
+  .content-body .body-inner .postcontent {
+    padding: 10px;
+    color: #333; }
+
+.postcontent html, .postcontent address, .postcontent blockquote, .postcontent body, .postcontent dd, .postcontent div, .postcontent dl, .postcontent dt, .postcontent fieldset, .postcontent form, .postcontent frame, .postcontent frameset, .postcontent h1, .postcontent h2, .postcontent h3, .postcontent h4, .postcontent h5, .postcontent h6, .postcontent noframes, .postcontent ol, .postcontent p, .postcontent ul, .postcontent center, .postcontent dir, .postcontent hr, .postcontent menu, .postcontent pre {
+  display: block; }
+
+.postcontent li {
+  display: list-item; }
+
+.postcontent head {
+  display: none; }
+
+.postcontent table {
+  display: table; }
+
+.postcontent tr {
+  display: table-row; }
+
+.postcontent thead {
+  display: table-header-group; }
+
+.postcontent tbody {
+  display: table-row-group; }
+
+.postcontent tfoot {
+  display: table-footer-group; }
+
+.postcontent col {
+  display: table-column; }
+
+.postcontent colgroup {
+  display: table-column-group; }
+
+.postcontent td, .postcontent th {
+  display: table-cell; }
+
+.postcontent caption {
+  display: table-caption; }
+
+.postcontent th {
+  font-weight: bolder;
+  text-align: center; }
+
+.postcontent caption {
+  text-align: center; }
+
+.postcontent body {
+  margin: 8px;
+  line-height: 1.12; }
+
+.postcontent h1 {
+  font-size: 2em;
+  margin: .67em 0; }
+
+.postcontent h2 {
+  font-size: 1.5em;
+  margin: .75em 0; }
+
+.postcontent h3 {
+  font-size: 1.17em;
+  margin: .83em 0; }
+
+.postcontent h4, .postcontent p, .postcontent blockquote, .postcontent ul, .postcontent fieldset, .postcontent form, .postcontent ol, .postcontent dl, .postcontent dir, .postcontent menu {
+  margin: 1.12em 0; }
+
+.postcontent h5 {
+  font-size: .83em;
+  margin: 1.5em 0; }
+
+.postcontent h6 {
+  font-size: .75em;
+  margin: 1.67em 0; }
+
+.postcontent h1, .postcontent h2, .postcontent h3, .postcontent h4, .postcontent h5, .postcontent h6, .postcontent b, .postcontent strong {
+  font-weight: bolder; }
+
+.postcontent blockquote {
+  margin-left: 40px;
+  margin-right: 40px; }
+
+.postcontent i, .postcontent cite, .postcontent em, .postcontent var, .postcontent address {
+  font-style: italic; }
+
+.postcontent pre, .postcontent tt, .postcontent code, .postcontent kbd, .postcontent samp {
+  font-family: monospace; }
+
+.postcontent pre {
+  white-space: pre; }
+
+.postcontent button, .postcontent textarea, .postcontent input, .postcontent object, .postcontent select {
+  display: inline-block; }
+
+.postcontent big {
+  font-size: 1.17em; }
+
+.postcontent small, .postcontent sub, .postcontent sup {
+  font-size: .83em; }
+
+.postcontent sub {
+  vertical-align: sub; }
+
+.postcontent sup {
+  vertical-align: super; }
+
+.postcontent table {
+  border-spacing: 2px; }
+
+.postcontent thead, .postcontent tbody, .postcontent tfoot {
+  vertical-align: middle; }
+
+.postcontent td, .postcontent th {
+  vertical-align: inherit; }
+
+.postcontent s, .postcontent strike, .postcontent del {
+  text-decoration: line-through; }
+
+.postcontent hr {
+  border: 1px inset; }
+
+.postcontent ol, .postcontent ul, .postcontent dir, .postcontent menu, .postcontent dd {
+  margin-left: 40px; }
+
+.postcontent ol {
+  list-style-type: decimal; }
+
+.postcontent ol ul, .postcontent ul ol, .postcontent ul ul, .postcontent ol ol {
+  margin-top: 0;
+  margin-bottom: 0; }
+
+.postcontent u, .postcontent ins {
+  text-decoration: underline; }
+
+.postcontent br:before {
+  content: ”\A”; }
+
+.postcontent :before, .postcontent :after {
+  white-space: pre-line; }
+
+.postcontent center {
+  text-align: center; }
+
+.postcontent abbr, .postcontent acronym {
+  font-variant: small-caps;
+  letter-spacing: 0.1em; }
+
+.postcontent :link, .postcontent :visited {
+  text-decoration: underline; }
+
+.postcontent :focus {
+  outline: thin dotted invert; }

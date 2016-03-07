@@ -1,4 +1,4 @@
-$carousel-height: 160px;
+$carousel-height: 170px;
 $image-height: 125px;
 $image-width: 190px;
 .box { 
@@ -9,7 +9,7 @@ $image-width: 190px;
 }
 
 .picbox { 
-	width:860px; 
+	width:861px ; 
 	height:$carousel-height; 
 	overflow:hidden; 
 	position:relative;
@@ -24,7 +24,7 @@ $image-width: 190px;
 		background:#eee; 
 		margin-right:20px; 
 		height: $carousel-height;
-		padding:5px; 
+		padding: 5px; 
 		float:left;
 		a {
 			display: inline-block;
@@ -34,7 +34,8 @@ $image-width: 190px;
 		}
 		p {
 			font-size: 14px;
-			padding: 5px;
+			padding: 7px;
+			font-family: "Microsoft Yahei";
 			text-align: center;
 		}
 	}
