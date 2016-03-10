@@ -22,10 +22,16 @@
   	padding: 0 22px;
   	.btn-group {
   		.btn {
-  			width: 70px;
+  			width: 66px;
   			height: 35px;
   			line-height: 30px;
   			margin-right: 7px;
+  		}
+  		.btn-register {
+  			width: 85px;
+  		}
+  		button:last-child {
+  			margin-right: 0;
   		}
   	}
 	.login-title {

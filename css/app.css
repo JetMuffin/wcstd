@@ -287,10 +287,14 @@ a {
   background-color: #ebebeb;
   padding: 0 22px; }
   .login-box .btn-group .btn {
-    width: 70px;
+    width: 66px;
     height: 35px;
     line-height: 30px;
     margin-right: 7px; }
+  .login-box .btn-group .btn-register {
+    width: 85px; }
+  .login-box .btn-group button:last-child {
+    margin-right: 0; }
   .login-box .login-title {
     font-weight: normal;
     text-align: center;
